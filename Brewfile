@@ -1,0 +1,35 @@
+tap "git-duet/tap"
+
+brew "automake"
+brew "libffi"
+brew "libyaml"
+brew "openssl"
+brew "readline"
+
+brew "direnv"
+brew "git"
+brew "go"
+brew "htop"
+brew "mas"
+brew "node"
+brew "python"
+brew "tmux"
+brew "tree"
+brew "vim"
+brew "wget"
+
+cask "1password"                                                              # EXCLUDE : passwords/trust
+cask "atom"
+cask "bartender"
+cask "google-chrome"
+cask "istat-menus"
+cask "iterm2"
+cask "keybase"                                                                # RELOCATE : user - coreyti (context: home)
+cask "knox"                                                                   # RELOCATE : user - coreyti (context: home)
+cask "plistedit-pro"
+cask "sizeup"
+cask "slack"
+cask "slate"
+cask "teleport"
+cask "vagrant"
+cask "xscope"
